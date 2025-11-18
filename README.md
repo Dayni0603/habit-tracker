@@ -15,7 +15,7 @@
 
 - Add stronger type safety (e.g., with TypeScript).  
 - Add form validation and messages.  
-- Add search, delete, and edit functionality.  
+- Add search, delete, edit and pagination functionality.  
 - Improve component structure and folder organization.  
 - Add more comprehensive test coverage using React Testing Library.  
 - Expand global state management if the app grows (e.g., Redux, Zustand, or Recoil).
