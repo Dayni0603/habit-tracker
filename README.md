@@ -34,3 +34,7 @@
    [http://localhost:3000](http://localhost:3000)
 
 The app will reload automatically as you make changes.
+
+## Deployment
+
+The app is deployed and can be accessed at: [https://habittrackertest.netlify.app/](https://habittrackertest.netlify.app/)
