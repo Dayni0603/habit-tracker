@@ -1,0 +1,24 @@
+.summary {
+  background: #ffffff;
+  padding: 14px 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.summary p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.summary p span {
+  font-weight: 700;
+}
+
+.summary.low span { color: #e74c3c; }      /* red */
+.summary.medium span { color: #f1c40f; }   /* yellow */
+.summary.high span { color: #2ecc71; }     /* green */
+

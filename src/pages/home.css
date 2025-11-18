@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.add-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 18px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #45a047;
+}
+
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.category-filter button {
+  padding: 8px 15px;
+  background: #e5e5e5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.category-filter button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.category-filter button:hover {
+  background-color: #d9d9d9;
+}
+
+.summary-container {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.summary-item {
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+.habit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.habit-card {
+  background: white;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.habit-name {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.habit-category {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.habit-toggle {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 380px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal input,
+.modal select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+.modal button:hover {
+  background-color: #45a047;
+}

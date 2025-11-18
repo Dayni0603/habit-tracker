@@ -1,0 +1,28 @@
+.habit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.completed-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.status-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #e0e0e0;
+  font-size: 14px;
+}
+
+.status-btn.completed {
+  background: #4caf50;
+  color: white;
+}
