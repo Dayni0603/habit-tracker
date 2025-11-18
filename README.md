@@ -15,6 +15,7 @@
 
 - Add stronger type safety (e.g., with TypeScript).  
 - Add form validation and messages.  
+- Add ability to pin priority tasks.
 - Add search, delete, edit and pagination functionality.  
 - Improve component structure and folder organization.  
 - Add more comprehensive test coverage using React Testing Library.  
